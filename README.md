@@ -4,7 +4,14 @@
 
 ## Description
 
-This project is to build a website for a coworking startup. The first step is to come up with Target Users and User Personas, then reasearch and brainstorm. The second step is to sketch a Desktop, Tablet, & Mobile version of the site.
+This project is to build a website for a coworking startup.
+
+* _The first step is to come up with Target Users and User Personas, then research and brainstorm._
+* _The second step is to sketch a Desktop, Tablet, & Mobile version of the site._
+* _Next, comes the low-fi wireframes._
+* _Followed by the hi-fi wireframes._
+* _After is protoyping._
+* _Then coding and building the actual site._
 
 ## Setup/Installation Requirements
 
