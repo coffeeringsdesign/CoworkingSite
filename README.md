@@ -78,9 +78,9 @@ Tablet | Individual Pages
 ![Sketch 1](img/sketch3.jpeg) | ![Sketch 2](img/sketch4.jpeg)
 
 #### Lo-Fi Wireframes:
-Mobile | Desktop
-:-----------------------: | :-----------------------:
-![Sketch 1](img/) | ![Sketch 2](img/)
+Mobile | Tablet | Desktop
+:-----------------------: | :-----------------------: | :-----------------------:
+![Sketch 1](img/lowfiMobileWireframe.png) | ![Sketch 2](img/lowfiTabletWireframe.png) | ![Sketch 1](img/)
 
 #### Hi-Fi Wireframes:
 ![Page 1](img/) | ![Page 2](img/)
