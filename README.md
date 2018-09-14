@@ -80,7 +80,7 @@ Tablet | Individual Pages
 #### Lo-Fi Wireframes:
 Mobile | Tablet | Desktop
 :-----------------------: | :-----------------------: | :-----------------------:
-![Sketch 1](img/lowfiMobileWireframe.png) | ![Sketch 2](img/lowfiTabletWireframe.png) | ![Sketch 1](img/)
+![Sketch 1](img/lowfiMobileWireframe.png) | ![Sketch 2](img/lowfiTabletWireframe.png) | ![Sketch 1](img/lowfiDesktopWireframe.png)
 
 #### Hi-Fi Wireframes:
 ![Page 1](img/) | ![Page 2](img/)
