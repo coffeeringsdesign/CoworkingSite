@@ -83,12 +83,12 @@ Mobile | Tablet | Desktop
 ![Sketch 1](img/lowfiMobileWireframe.png) | ![Sketch 2](img/lowfiTabletWireframe.png) | ![Sketch 1](img/lowfiDesktopWireframe.png)
 
 #### Hi-Fi Wireframes:
-![Page 1](img/) | ![Page 2](img/)
----------------------- | -----------------------
-![Page 3](img/) | ![Page 4](img/)
+Mobile | Tablet | Desktop
+:-----------------------: | :-----------------------: | :-----------------------:
+![Sketch 1](img/) | ![Sketch 2](img/) | ![Sketch 1](img/hifiDesktopWireframes.png)
 
 
-#### Final Site:
+<!-- #### Final Site:
 ![Page 1](img/) | ![Page 2](img/)
 ---------------------- | -----------------------
 ![Page 3](img/) | ![Page 4](img/) -->
