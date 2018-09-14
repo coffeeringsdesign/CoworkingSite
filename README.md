@@ -11,7 +11,34 @@ This project is to build a website for a coworking startup. The first step is to
 * _Sass for a preprocessor._
 * _Sketch to view wireframes and prototypes._
 
-## Screenshots
+
+
+## User Profiles
+![User Profile 1](img/1.jpg) | ![User Profile 2](img/2.jpg)
+---------------------- | -----------------------
+![User Profile 3](img/3.jpg) | ![User Profile 4](img/4.jpg)
+![User Profile 5](img/5.jpg) |
+
+## Research, Inspire, and Brainstorm
+
+###Step 1 - Other coworking websites
+Deskpass | Wework
+---------------------- | -----------------------
+very nice graphics | very few photos
+all needs on one scrolling page | big corporation - too many locations
+still has them linked at the top | too corporate!
+nice grid gallery showing amenaties | clean but boring
+sleek but kind of cold feeling | no colors
+
+TENpod | Collective Agency
+---------------------- | -----------------------
+clean graphic landing page | not enough whitespace
+background images show on mouseover | too much information
+grid photos | tl:dr everything
+very colorful | not graphic enough
+slightly juvenile feeling | eye needs a break
+
+<!-- ## Screenshots
 
 #### Original Site:
 ![Page 1](img/) | ![Page 2](img/)
@@ -38,14 +65,7 @@ Mobile | Desktop
 #### Final Site:
 ![Page 1](img/) | ![Page 2](img/)
 ---------------------- | -----------------------
-![Page 3](img/) | ![Page 4](img/)
-
-
-## User Profiles
-![User Profile 1](img/1.jpg) | ![User Profile 2](img/2.jpg)
----------------------- | -----------------------
-![User Profile 3](img/3.jpg) | ![User Profile 4](img/4.jpg)
-![User Profile 5](img/5.jpg) |
+![Page 3](img/) | ![Page 4](img/) -->
 
 
 ## Support and contact details
