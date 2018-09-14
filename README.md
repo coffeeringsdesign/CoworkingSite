@@ -85,7 +85,7 @@ Mobile | Tablet | Desktop
 #### Hi-Fi Wireframes:
 Mobile | Tablet | Desktop
 :-----------------------: | :-----------------------: | :-----------------------:
-![Sketch 1](img/) | ![Sketch 2](img/hifiTabletWireframes.png) | ![Sketch 1](img/hifiDesktopWireframes.png)
+![Sketch 1](img/hifiMobileWireframes.png) | ![Sketch 2](img/hifiTabletWireframes.png) | ![Sketch 1](img/hifiDesktopWireframes.png)
 
 
 <!-- #### Final Site:
