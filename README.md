@@ -2,7 +2,7 @@
 
 ## Description
 
-Here
+This project is to build a website for a coworking startup. The first step is to come up with Target Users and User Personas, then reasearch and brainstorm.
 
 ## Setup/Installation Requirements
 
@@ -42,19 +42,10 @@ Mobile | Desktop
 
 
 ## User Profiles
-User Profile 1 | User Profile 2 | User Profile 3
------------- | ------------- | -------------
-Jeffrey Minios | Marnie Callum | Ralph Iwana
-Prospective Student | Current  Student | Employer
-"I want to see what they have to offer" | "I want to learn to program as easily as possible" | "I want to see what a prospective employee can be expected to know"
-Painpoints: | Painpoints: | Painpoints:
-Wants to see full lessons and courses | * Always be able to see navigation | * Easily find summary
-Needs to be easily navigable | Being able to navigate without moving backwards | Not having to sort thru a lot of pages
-Nice looking - website represents the course |
-How can we serve: | How can we serve: | How can we serve:
-Make it pretty | Give full content | Easy to understand
-Easy to understand | Good way to navigate | Easy navigation
-Easy to navigate |
+![User Profile 1](img/1.jpg) | ![User Profile 2](img/2.jpg)
+---------------------- | -----------------------
+![User Profile 3](img/3.jpg) | ![User Profile 4](img/4.jpg)
+![User Profile 5](img/5.jpg) |
 
 
 ## Support and contact details
