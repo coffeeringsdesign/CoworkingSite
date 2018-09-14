@@ -21,7 +21,8 @@ This project is to build a website for a coworking startup. The first step is to
 
 ## Research, Inspire, and Brainstorm
 
-###Step 1 - Other coworking websites
+#### Step 1 - Other coworking websites
+
 Deskpass | Wework
 ---------------------- | -----------------------
 very nice graphics | very few photos
@@ -35,8 +36,32 @@ TENpod | Collective Agency
 clean graphic landing page | not enough whitespace
 background images show on mouseover | too much information
 grid photos | tl:dr everything
-very colorful | not graphic enough
+very (too) colorful | not graphic enough
 slightly juvenile feeling | eye needs a break
+
+#### Step 2 - Apartment building websites... as a client you want to see where you will be.
+
+Baseline 158 | Indigo @ Twelve West
+---------------------- | -----------------------
+highlights pictures | great pics that show place
+see all the rooms | fixed navigation bar
+sticks to two graphic colors | clean but no color
+fixed navigation | slow slideshow and animations
+two pics with a list of amenities in between | grid gallery
+nice flow of info blocks | all on one scolling page
+
+#### Step 2 - How to integrate clients requests with the best, most interesting and most useful aspects of each site that was researched.
+* _The first thing the client will see will appear to be a landing page. Good image and intro, but they can scroll down to see all the other information that needs to be presented._
+
+* _While all info will be on the front page (homepage) there will still be a navigation bar fixed at the top to take any visitor (who doesn't scroll) to a simple individual page with that information_
+
+* _There will be two colors to go along with greyscale. This will add brightness and a nice color scheme without seeming overly juvenile._
+
+* _There will be a grid gallery of amenities that will include a description along side in a space in that grid._
+
+* _All information will be quick and easy to read. Not overly busy. Make the eye comfortable._
+
+* _Each key point that they client wants included will get it's own section of the front page. These will be broken apart by color breaks._
 
 <!-- ## Screenshots
 
