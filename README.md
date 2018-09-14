@@ -1,19 +1,20 @@
-#### By _**Kendra Kelly*_
+# endeavOR coworking site
+
+#### By _**Kendra Kelly**_
 
 ## Description
 
-This project is to build a website for a coworking startup. The first step is to come up with Target Users and User Personas, then reasearch and brainstorm.
+This project is to build a website for a coworking startup. The first step is to come up with Target Users and User Personas, then reasearch and brainstorm. The second step is to sketch a Desktop, Tablet, & Mobile version of the site.
 
 ## Setup/Installation Requirements
 
-* _Clone this repository: https://github.com/coffeeringsdesign/CoworkingSite.git ._
+* _Clone this repository: https://github.com/coffeeringsdesign/CoworkingSite.git_
 * _Use Atom to edit html, css & javascript._
 * _Sass for a preprocessor._
 * _Sketch to view wireframes and prototypes._
 
-
-
 ## User Profiles
+
 ![User Profile 1](img/1.jpg) | ![User Profile 2](img/2.jpg)
 ---------------------- | -----------------------
 ![User Profile 3](img/3.jpg) | ![User Profile 4](img/4.jpg)
@@ -71,6 +72,10 @@ nice flow of info blocks | all on one scolling page
 Desktop | Mobile
 :-----------------------: | :-----------------------:
 ![Sketch 1](img/sketch1.jpeg) | ![Sketch 2](img/sketch2.jpeg)
+
+Tablet | Individual Pages
+:-----------------------: | :-----------------------:
+![Sketch 1](img/sketch3.jpeg) | ![Sketch 2](img/sketch4.jpeg)
 
 #### Lo-Fi Wireframes:
 Mobile | Desktop
