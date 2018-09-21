@@ -13,7 +13,7 @@ $sectionPadding: 20px 0px;
 
 * {
   margin: 0;
-  // border: green solid 2px;
+  border: green dotted 2px;
   text-align: center;
   letter-spacing: .5px;
 }
@@ -97,26 +97,40 @@ img {
     width: auto;
     grid-template: auto / auto auto;
     grid-gap: 1em;
+  }
+}
+
+.amBlock {
+  position: relative;
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  // overflow: hidden;
+  justify-content: center;
+  height: 150px;
+  .imageBox {
+    // height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     img {
       width: 100%;
+      height: 150px;
     }
-    .amBlock {
-      // height: 75%;
-      position: relative;
-      width: 90%;
-      
-    }
-    .amText {
-      display: flex;
-      flex-direction: column;
-      background-color: $dkBlue;
-      padding: 1rem .5rem;
-      align-content: center;
-      justify-content: center;
-    }
-    h3 {
-      line-height: 160%;
-    }
+  }
+}
+
+.amText {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: $dkBlue;
+  // padding: 1rem .5rem;
+  align-content: center;
+  justify-content: center;
+  h3 {
+    line-height: 160%;
   }
 }
 
