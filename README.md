@@ -107,7 +107,7 @@ Please feel free to get in touch. Reach out to me at kendra@coffeeringsdesign.co
 
 ## Technologies Used
 
-Sketch, Bootstrap, JQuery, & Atom.
+Node, Webpack, Sketch, Bootstrap, JQuery, & Atom.
 
 ### License
 
