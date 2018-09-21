@@ -13,13 +13,14 @@ $sectionPadding: 20px 0px;
 
 * {
   margin: 0;
-  border: green solid 2px;
+  // border: green solid 2px;
   text-align: center;
 }
 
 body {
   background-color: $cream;
   font-family: $simpleFont;
+  font-size: 16px;
 }
 
 h3 {
@@ -87,7 +88,7 @@ img {
 }
 .amenitiesContainer {
   @include centerContent;
-  padding: $sectionPadding;
+  padding-bottom: 3rem;
   width: 600px;
   left: 13%;
   .amenitiesGrid {
@@ -95,7 +96,7 @@ img {
     width: auto;
     // background: grey;
     grid-template: auto / auto auto;
-    grid-gap: 20px;
+    grid-gap: 1em;
     img {
       width: 100%;
     }
@@ -110,37 +111,40 @@ img {
 .subscriptionContent {
   background-color: $dkBlue;
   padding: $sectionPadding;
-  max-width: $maxContentWidth;
-  @include centerContent;
-  .sub {
-    background-color: $cream;
-    margin: 20px 30px;
-    padding: 20px;
-  }
-  #cornerDesk {
-    margin-bottom: 60px;
-  }
-  h5, p, h4 {
-    color: $mdBlue;
-  }
-  p {
-    line-height: 30px;
-  }
-  h5 {
-    margin-bottom: 5px;
+  margin: 0;
+  .subContent {
+    max-width: $maxContentWidth;
+    @include centerContent;
+    .sub {
+      background-color: $cream;
+      margin: 20px 30px;
+      padding: 20px;
+    }
+    #cornerDesk {
+      margin-bottom: 60px;
+    }
+    h5, p, h4 {
+      color: $mdBlue;
+    }
+    p {
+      line-height: 30px;
+    }
+    h5 {
+      margin-bottom: 5px;
+    }
   }
 }
 
 .contactContent {
   max-width: $maxContentWidth;
   @include centerContent;
-  padding-bottom: 50px;
+  padding-bottom: 2em;
   .contactInfo {
     display: flex;
     flex-direction: column;
     .contactImage {
       width: auto;
-      margin-bottom: 20px;
+      margin-bottom: 1em;
       img {
         width: 90%;
       }
@@ -148,15 +152,18 @@ img {
     .contactAddress {
       @include centerContent;
       color: $dkBlue;
-      width: 40%;
+      width: 75%;
       // text-align: center;
       align-items: center;
       .leftAdd {
         color: $mdBlue;
         text-align: left;
       }
+      h6 {
+        margin-bottom: 1em;
+      }
       #copywriteInfo {
-        font-size: 10px;
+        font-size: calc(55% + .8vw);
       }
     }
   }
