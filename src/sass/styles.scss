@@ -68,7 +68,7 @@ img {
 }
 
 .bannerPicture {
-  height: auto;
+  height: 100%;
   width: auto;
   max-height: 90%;
   overflow: hidden;
@@ -81,6 +81,12 @@ img {
     width: auto;
     height: 80%;
     max-height: 400px;
+  }
+  @media screen and (min-width: 1024px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -107,22 +113,22 @@ img {
   flex-direction: column;
   // overflow: hidden;
   justify-content: center;
-  height: 150px;
+  height: 175px;
   .imageBox {
-    // height: 150px;
+    height: 175px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     img {
-      width: 100%;
-      height: 150px;
+      width: 175px;
     }
   }
 }
 
 .amText {
-  height: 150px;
+  height: 175px;
   display: flex;
   flex-direction: column;
   background-color: $dkBlue;
@@ -131,16 +137,41 @@ img {
   justify-content: center;
   h3 {
     line-height: 160%;
+    padding-left: .6rem;
+    padding-right: .6rem;
   }
 }
 
 .subscriptionContent {
+  @include centerContent;
   background-color: $dkBlue;
   padding: $sectionPadding;
   margin: 0;
+  button {
+    width: 75%;
+    font-size: 1em;
+    color: $cream;
+    background-color: $mdBlue;
+    margin: 1rem;
+    border-radius: .5em;
+    border: 0;
+    height: 40px;
+  }
+  @media screen and (min-width: 500px) {
+    flex-direction: column;
+    button {
+      width: 400px;
+    }
+  }
+}
+
+.subscripContentCenter {
+  @include centerContent;
+
   .subContent {
-    max-width: $maxContentWidth;
-    @include centerContent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 1rem;
     .sub {
       width: 75%;
@@ -157,16 +188,12 @@ img {
     h5 {
       margin-bottom: 5px;
     }
-    button {
-      width: 75%;
-      font-size: 1em;
-      color: $cream;
-      background-color: $mdBlue;
-      margin: 1rem;
-      border-radius: .5em;
-      border: 0;
-      height: 40px;
+    @media screen and (min-width: 500px) {
+      flex-direction: row;
     }
+  }
+  @media screen and (min-width: 500px) {
+    width: $maxContentWidth;
   }
 }
 
