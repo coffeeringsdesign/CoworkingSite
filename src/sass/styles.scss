@@ -1,3 +1,47 @@
+$dkBlue: #274690;
+$mdBlue: #576CA8;
+$cream: #F5F3F5;
+$simpleFont: 'Lato', sans-serif;
+
+
+@mixin centerContent {
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0;
+  // border: white solid 2px;
+}
+
 body {
-  background-color: green;
+  background-color: $cream;
+  font-family: $simpleFont;
+}
+
+.upperBarContainer {
+  background-color: $dkBlue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+  max-height: 120px;
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    max-height: 90%;
+    img {
+      width: auto;
+      max-height: 60px;
+    }
+  }
+  .mobileMenu {
+    height: 80%;
+    img {
+      height: 100%;
+    }
+  }
 }
