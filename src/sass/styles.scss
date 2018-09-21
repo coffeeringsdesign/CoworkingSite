@@ -80,19 +80,19 @@ img {
   @include centerContent;
   max-width: $maxContentWidth;
   .amentitiesGrid {
+    
     grid-gap: 500px;
-    margin: 0 20px;
+    margin: 0 30px;
     display: grid;
     height: auto;
     width: auto;
     max-height: 90%;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    // justify-content: center;
+    grid-template-columns: 1fr 1fr;
     .amText {
+      display: flex;
       background-color: $mdBlue;
+      justify-content: space-around;
       h3 {
         color: $cream;
         padding: 20px;
