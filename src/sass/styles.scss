@@ -15,6 +15,7 @@ $sectionPadding: 20px 0px;
   margin: 0;
   // border: green solid 2px;
   text-align: center;
+  letter-spacing: .5px;
 }
 
 body {
@@ -86,24 +87,35 @@ img {
 #amenitiesTitle {
   color: $dkBlue;
 }
+
 .amenitiesContainer {
   @include centerContent;
-  padding-bottom: 3rem;
-  width: 600px;
-  left: 13%;
+  margin: 0 1rem 3rem 1rem;
+  width: auto;
   .amenitiesGrid {
     display: grid;
     width: auto;
-    // background: grey;
     grid-template: auto / auto auto;
     grid-gap: 1em;
     img {
       width: 100%;
     }
+    .amBlock {
+      // height: 75%;
+      position: relative;
+      width: 90%;
+      
+    }
     .amText {
       display: flex;
       flex-direction: column;
       background-color: $dkBlue;
+      padding: 1rem .5rem;
+      align-content: center;
+      justify-content: center;
+    }
+    h3 {
+      line-height: 160%;
     }
   }
 }
@@ -115,13 +127,12 @@ img {
   .subContent {
     max-width: $maxContentWidth;
     @include centerContent;
+    margin-bottom: 1rem;
     .sub {
+      width: 75%;
       background-color: $cream;
       margin: 20px 30px;
       padding: 20px;
-    }
-    #cornerDesk {
-      margin-bottom: 60px;
     }
     h5, p, h4 {
       color: $mdBlue;
@@ -131,6 +142,16 @@ img {
     }
     h5 {
       margin-bottom: 5px;
+    }
+    button {
+      width: 75%;
+      font-size: 1em;
+      color: $cream;
+      background-color: $mdBlue;
+      margin: 1rem;
+      border-radius: .5em;
+      border: 0;
+      height: 40px;
     }
   }
 }
