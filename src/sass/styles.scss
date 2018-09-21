@@ -3,6 +3,7 @@ $mdBlue: #576CA8;
 $cream: #F5F3F5;
 $simpleFont: 'Lato', sans-serif;
 $maxContentWidth: 1150px;
+$sectionPadding: 20px 0px;
 
 @mixin centerContent {
   display: block;
@@ -12,7 +13,7 @@ $maxContentWidth: 1150px;
 
 * {
   margin: 0;
-  // border: green solid 2px;
+  border: green solid 2px;
   text-align: center;
 }
 
@@ -24,6 +25,14 @@ body {
 h3 {
   color: $mdBlue;
   margin: 30px 0;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.9em;
 }
 
 img {
@@ -76,50 +85,37 @@ img {
 #amenitiesTitle {
   color: $dkBlue;
 }
-.shoesContainer {
+.amenitiesContainer {
+  @include centerContent;
+  padding: $sectionPadding;
   width: 600px;
-  margin: -40% auto 0 auto;
-  z-index: 2;
-  position: relative;
   left: 13%;
-  .shoesGrid {
+  .amenitiesGrid {
     display: grid;
     width: auto;
     // background: grey;
     grid-template: auto / auto auto;
     grid-gap: 20px;
-    // button {
-    //   padding: 0;
-    //   &:hover {
-    //     cursor: pointer;
-    //   }
-    // }
     img {
       width: 100%;
     }
+    .amText {
+      display: flex;
+      flex-direction: column;
+      background-color: $dkBlue;
+    }
   }
-}
-  // @media screen and (max-width: 925px) {
-  //   margin: -300px auto 0 auto;
-  //   position: relative;
-  //   display: block;
-  //   left: auto;
-  //   width: 90%;
-  // }
-// }
-
-.amText {
-  display: flex;
-  flex-direction: column;
 }
 
 .subscriptionContent {
   background-color: $dkBlue;
+  padding: $sectionPadding;
   max-width: $maxContentWidth;
   @include centerContent;
   .sub {
     background-color: $cream;
     margin: 20px 30px;
+    padding: 20px;
   }
   #cornerDesk {
     margin-bottom: 60px;
@@ -127,30 +123,40 @@ img {
   h5, p, h4 {
     color: $mdBlue;
   }
+  p {
+    line-height: 30px;
+  }
+  h5 {
+    margin-bottom: 5px;
+  }
 }
-
 
 .contactContent {
   max-width: $maxContentWidth;
-  // @include centerContent;
+  @include centerContent;
   padding-bottom: 50px;
   .contactInfo {
     display: flex;
     flex-direction: column;
     .contactImage {
       width: auto;
+      margin-bottom: 20px;
       img {
         width: 90%;
       }
     }
     .contactAddress {
-      display: flex;
-      flex-direction: column;
+      @include centerContent;
+      color: $dkBlue;
+      width: 40%;
+      // text-align: center;
+      align-items: center;
+      .leftAdd {
+        color: $mdBlue;
+        text-align: left;
+      }
       #copywriteInfo {
         font-size: 10px;
-        .leftAdd {
-          justify-content: flex-start;
-        }
       }
     }
   }
