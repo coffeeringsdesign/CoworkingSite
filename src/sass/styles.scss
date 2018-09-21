@@ -76,36 +76,37 @@ img {
 #amenitiesTitle {
   color: $dkBlue;
 }
-.amenities {
-  @include centerContent;
-  max-width: $maxContentWidth;
-  .amentitiesGrid {
-    
-    grid-gap: 500px;
-    margin: 0 30px;
+.shoesContainer {
+  width: 600px;
+  margin: -40% auto 0 auto;
+  z-index: 2;
+  position: relative;
+  left: 13%;
+  .shoesGrid {
     display: grid;
-    height: auto;
     width: auto;
-    max-height: 90%;
-    overflow: hidden;
-    grid-template-columns: 1fr 1fr;
-    .amText {
-      display: flex;
-      background-color: $mdBlue;
-      justify-content: space-around;
-      h3 {
-        color: $cream;
-        padding: 20px;
-      }
-    }
+    // background: grey;
+    grid-template: auto / auto auto;
+    grid-gap: 20px;
+    // button {
+    //   padding: 0;
+    //   &:hover {
+    //     cursor: pointer;
+    //   }
+    // }
     img {
-      min-height: 300px;
-      width: 250px;
-      height: auto;
-      max-height: 400px;
+      width: 100%;
     }
   }
 }
+  // @media screen and (max-width: 925px) {
+  //   margin: -300px auto 0 auto;
+  //   position: relative;
+  //   display: block;
+  //   left: auto;
+  //   width: 90%;
+  // }
+// }
 
 .amText {
   display: flex;
@@ -116,20 +117,41 @@ img {
   background-color: $dkBlue;
   max-width: $maxContentWidth;
   @include centerContent;
-  h3 {
+  .sub {
+    background-color: $cream;
+    margin: 20px 30px;
+  }
+  #cornerDesk {
+    margin-bottom: 60px;
+  }
+  h5, p, h4 {
     color: $mdBlue;
   }
 }
 
+
 .contactContent {
   max-width: $maxContentWidth;
-  @include centerContent;
+  // @include centerContent;
+  padding-bottom: 50px;
   .contactInfo {
     display: flex;
     flex-direction: column;
-  }
-  .contactAddress {
-    display: flex;
-    flex-direction: column;
+    .contactImage {
+      width: auto;
+      img {
+        width: 90%;
+      }
+    }
+    .contactAddress {
+      display: flex;
+      flex-direction: column;
+      #copywriteInfo {
+        font-size: 10px;
+        .leftAdd {
+          justify-content: flex-start;
+        }
+      }
+    }
   }
 }
