@@ -22,10 +22,10 @@ This project is to build a website for a coworking startup.
 
 ## User Profiles
 
-![User Profile 1](img/1.jpg) | ![User Profile 2](img/2.jpg)
+![User Profile 1](src/assets/img/1.jpg) | ![User Profile 2](src/assets/img/2.jpg)
 ---------------------- | -----------------------
-![User Profile 3](img/3.jpg) | ![User Profile 4](img/4.jpg)
-![User Profile 5](img/5.jpg) |
+![User Profile 3](src/assets/img/3.jpg) | ![User Profile 4](src/assets/img/4.jpg)
+![User Profile 5](src/assets/img/5.jpg) |
 
 ## Research, Inspire, and Brainstorm
 
@@ -78,21 +78,21 @@ nice flow of info blocks | all on one scolling page
 
 Desktop | Mobile
 :-----------------------: | :-----------------------:
-![Sketch 1](img/sketch1.jpeg) | ![Sketch 2](img/sketch2.jpeg)
+![Sketch 1](src/assets/img/sketch1.jpeg) | ![Sketch 2](src/assets/img/sketch2.jpeg)
 
 Tablet | Individual Pages
 :-----------------------: | :-----------------------:
-![Sketch 1](img/sketch3.jpeg) | ![Sketch 2](img/sketch4.jpeg)
+![Sketch 1](src/assets/img/sketch3.jpeg) | ![Sketch 2](src/assets/img/sketch4.jpeg)
 
 #### Lo-Fi Wireframes:
 Mobile | Tablet | Desktop
 :-----------------------: | :-----------------------: | :-----------------------:
-![Sketch 1](img/lowfiMobileWireframe.png) | ![Sketch 2](img/lowfiTabletWireframe.png) | ![Sketch 1](img/lowfiDesktopWireframe.png)
+![Sketch 1](src/assets/img/lowfiMobileWireframe.png) | ![Sketch 2](src/assets/img/lowfiTabletWireframe.png) | ![Sketch 1](src/assets/img/lowfiDesktopWireframe.png)
 
 #### Hi-Fi Wireframes:
 Mobile | Tablet | Desktop
 :-----------------------: | :-----------------------: | :-----------------------:
-![Sketch 1](img/hifiMobileWireframes.png) | ![Sketch 2](img/hifiTabletWireframes.png) | ![Sketch 1](img/hifiDesktopWireframes.png)
+![Sketch 1](src/assets/img/hifiMobileWireframes.png) | ![Sketch 2](src/assets/img/hifiTabletWireframes.png) | ![Sketch 1](src/assets/img/hifiDesktopWireframes.png)
 
 
 <!-- #### Final Site:
