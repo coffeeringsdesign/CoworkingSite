@@ -14,11 +14,16 @@ This project is to build a website for a coworking startup.
 * _Then coding and building the actual site._
 
 ## Setup/Installation Requirements
-
-* _Clone this repository: https://github.com/coffeeringsdesign/CoworkingSite.git_
-* _Use Atom to edit html, css & javascript._
-* _Sass for a preprocessor._
-* _Sketch to view wireframes and prototypes._
+Using Command Line:
+1. ``git clone https://github.com/coffeeringsdesign/CoworkingSite.git `` to clone the site.
+2. ``cd ~`` to navigate to base directory
+3. ``cd Desktop `` to navigate to your desktop
+4. ``cd CoworkingSite`` to enter the site folder
+5. ``npm init -y`` to initialize node
+6. ``npm install`` to install all webpack dependencies
+7. ``npm run start`` this will webpack and immediate pop open the site on your brower. I recommend Chrome.
+8. Use Atom to edit any html, javascript, or sass.
+9. If setup like above all changes made and saved successfully will appear automatically into your browser window.
 
 ## User Profiles
 
