@@ -45,3 +45,12 @@ body {
     }
   }
 }
+
+.bannerPictureContainer {
+  min-height: 600px;
+  .bannerPicture {
+    img {
+      width: 100%;
+    }
+  }
+}
