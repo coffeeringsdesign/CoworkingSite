@@ -1,4 +1,4 @@
-![Kendra Kelly Logo](/kk.png)
+![Kendra Kelly Logo](/kkgithub.png)
 
 
 # endeavOR coworking site
