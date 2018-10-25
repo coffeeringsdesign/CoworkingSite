@@ -1,3 +1,6 @@
+![Kendra Kelly Logo](/kk.png)
+
+
 # endeavOR coworking site
 
 #### By _**Kendra Kelly**_
